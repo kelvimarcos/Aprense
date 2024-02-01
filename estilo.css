@@ -1,0 +1,23 @@
+
+:root {--primary-color: #fed001}
+
+
+
+body { font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+
+html { font:400 62.5% 'impact','sans-serif'}
+
+
+.wrappercontainer-dark { 
+    background-color: #2a2a2a;
+}
+
+.wrappercontainer-light { 
+    background-color: #fafafa;
+}
+
+.wrappercontainer-dark2 {
+    background-color: #003464
+
+}
