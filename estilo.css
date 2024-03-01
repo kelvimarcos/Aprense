@@ -1,5 +1,7 @@
 
-:root {--primary-color: #fed001}
+:root {--primary-color: #a08b00;}
+
+
 
 
 
@@ -8,7 +10,9 @@ body { font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Luci
 
 html { font:400 62.5% 'trebuchet ms','sans-serif'}
 
-p, a { font: 1.6rem;}
+p, a { font: 1.6rem;
+}
+
 
 h1 {font-size: 4.8rem;
    }
@@ -17,12 +21,23 @@ nav a { color: inherit;}
 
 .btn { background-color: var(--primary-color);
     border-radius: 4px;
+    display: inline-block;
     font-size: 1.8rem;
     text-decoration: none;
-    padding: 1.6rem;
-            4.8rem}
+    padding: 1.6rem 3rem;
+    color: white;}
+
+
+.btn a:hover { background-color: #5e5101;
+                color: white;
+            text-transform: uppercase;
+            text-decoration: none;}
+
+
 .upper { text-transform: uppercase;}
 
+
+.wrappercontainer { padding-top: 0;}
 
 .wrapperContainer-dark { 
     background-color: #2a2a2a;
@@ -46,6 +61,12 @@ nav a { color: inherit;}
 }
 
 
+.section_title { padding: 3rem 0;
+    text-align: center;
+        }
+.section_btn{ padding: 3rem 0;
+            text-align: center;
+                }
 .header { display: flex;
         justify-content: space-between;
         align-items: center;
@@ -66,15 +87,58 @@ gap: 1rem;
 list-style-type: none;
 }
 
-.header__nav a:hover {background-color: rgb(185, 185, 0);
+.header__nav a:hover {background-color: rgb(206, 206, 0);
                        border: 1px solid rgb(255, 255, 255);
                         color: black; }
 
 
-.wrapperContainer-hero { background-color: yellow; }
+.wrapperContainer-hero { background-image: linear-gradient(transparent,rgba(195, 179, 5, 0.988)); }
+
+
+
+
 
 .herobanner { display: flex;
             justify-content: space-between;
         align-items: center;
         gap: 20rem
         }
+
+.hero_title { padding-bottom: 3rem;}
+
+
+
+.herobanner a:hover {background-color: #5e5101;}
+
+
+
+.cursos {text-align: center; }
+.cursos h2 {font-size: 40px; }
+
+
+.cursoscontainer { display: flex;
+text-align: left;
+gap: 3rem;
+
+}
+
+.curso__card { border: 0.2px solid rgb(184, 184, 184);
+                flex: 1;
+                border-radius: 9px;
+                overflow: hidden;
+                }
+
+.curso__card img { display: block;
+                    width: 100%;}
+
+.curso__card h3 {font-size: 2.4rem;
+                padding-left: 8px; }
+
+.curso__card p {font-size: 1.8rem;
+    padding: 12px;
+line-height: 1.5;}
+
+.curso__card__content { padding: 1rem;
+                    border: 1px solid white;
+                    border-radius: 0 0 8px 8px;
+                border-top: transparent;}
