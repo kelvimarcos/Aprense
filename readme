@@ -1,0 +1,30 @@
+Projeto de site institucional desenvolvido com **HTML** e **CSS** durante as aulas com o professor **Daniel Tapias** na instituição **Serliv**.
+
+## 📝 Descrição
+
+O projeto simula a página inicial de uma escola fictícia chamada **Aprenser**, apresentando informações sobre os principais cursos oferecidos, detalhes sobre a instituição e informações de contato.
+
+## 🎯 Objetivos
+
+- Praticar a estruturação de páginas com HTML
+- Desenvolver layouts responsivos e organizados com CSS
+- Aplicar conceitos de design visual e hierarquia de informações
+- Simular a criação de um site institucional completo
+
+## 💻 Tecnologias utilizadas
+
+- **HTML5**
+- **CSS3**
+
+## 📸 Preview
+
+![Imagem do site](./)
+
+## 📑 Funcionalidades
+
+- Menu de navegação
+- Banner de destaque com chamada
+- Seção de principais cursos com cards
+- Descrição sobre a escola
+- Mapa de localização com contatos
+- Rodapé institucional
